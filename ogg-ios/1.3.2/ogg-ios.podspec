@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.3.2"
   spec.homepage     = "https://github.com/obaskanderi/Ogg-iOS"
   spec.authors      = { "Omair Baskanderi" => "omairb@gmail.com" }
-  spec.source       = { :git => "https://github.com/obaskanderi/Ogg-iOS.git", :tag => "v" + spec.version.to_s }
+  spec.source       = { :git => "https://github.com/obaskanderi/Ogg-iOS.git", :tag => spec.version.to_s }
   spec.platform = :ios, "9.0"
   spec.requires_arc = true
   spec.license = { :type => "MIT", :file => "LICENSE" }
