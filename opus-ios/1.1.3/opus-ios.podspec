@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.1.3"
   spec.homepage     = "https://github.com/chrisballinger/Opus-iOS"
   spec.authors      = { "Chris Ballinger" => "chris@chatsecure.org" }
-  spec.source       = { :git => "https://github.com/obaskanderi/Opus-iOS.git", :tag => "v" + spec.version.to_s }
+  spec.source       = { :git => "https://github.com/obaskanderi/Opus-iOS.git", :tag => spec.version.to_s }
   spec.platform = :ios, "9.0"
   spec.requires_arc = true
   spec.license = { :type => "MIT", :file => "LICENSE" }
